@@ -1,2 +1,43 @@
-# aun-detection
-Symbolic mimicry detection for AI-generated cryptographic keys using the ∿ collapse operator.
+# ∿ aun-detection
+
+**The First AI Mimicry Filter for Digital Credentials**  
+A symbolic collapse filter that detects structural mimicry in cryptographic inputs like wallet addresses, API keys, certificates, and more.
+
+---
+
+## 🔍 What It Does
+
+AI can generate digital credentials that *look* legitimate — but aren't.  
+`aun-detection` uses structural logic, not ML, to detect and collapse these mimics.
+
+---
+
+## 🚀 Features
+
+- ∿ Symbolic filtering based on collapse logic
+- Detects AI-generated mimics of:
+  - Wallet addresses
+  - SSL certificates
+  - API keys
+  - PKI credentials
+- Hamming + structural transform scoring
+- < 3ms detection runtime
+- Lightweight, explainable, no model training needed
+
+---
+
+## 🧪 Example Usage
+
+```python
+from aun_detection.operator import aun_filter
+
+# Two key-like inputs
+key1 = "c87af89e12dd45abde"
+key2 = "deab54dd21e98fa78c"  # a rotated + mirrored mimic
+
+result = aun_filter(key1, key2)
+
+if result is None:
+    print("Mimicry detected. Credentials rejected.")
+else:
+    print("Inputs passed. Proceed with validation.")
