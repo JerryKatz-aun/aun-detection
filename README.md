@@ -61,6 +61,7 @@ else:
 ```
 
 📄 [Whitepaper (PDF)](https://github.com/halifaxjerrykatz-dotcom/aun-detection/blob/main/docs/whitepaper.pdf)
+
 ---
 
 ## 🧠 Usage Example
@@ -84,9 +85,11 @@ else:
 ```
 Mimicry detected — credentials rejected.
 ```
+
 ---
 
 `aun_filter(a, b)` compares two strings symbolically.  
-It returns **None** when they collapse (too similar)**,**  
+It returns **None** when they collapse (too similar),  
 and a **numeric dissimilarity score** otherwise.
+
 
