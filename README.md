@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/logo.png" alt="∿ aun-detection" width="80"/>
+</p>
+
 # ∿ aun-detection
 
 **The First AI Mimicry Filter for Digital Credentials**  
