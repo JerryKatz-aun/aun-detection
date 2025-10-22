@@ -6,6 +6,8 @@
 ```bash
 pip install aun-detection
 <p align="center"> <img src="https://github.com/halifaxjerrykatz-dotcom/aun-detection/raw/main/docs/logo.png" alt="∿ aun-detection" width="80"/> </p> ```
+<p align="center"><em>A symbolic collapse logic filter for AI mimicry detection</em></p>
+
 # ∿ aun-detection
 
 **The First AI Mimicry Filter for Digital Credentials**  
