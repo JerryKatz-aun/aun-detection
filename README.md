@@ -42,6 +42,3 @@ if result is None:
 else:
     print("Inputs passed. Proceed with validation.")
 
-
-📄 [Whitepaper (PDF)](docs/whitepaper.pdf)
-
