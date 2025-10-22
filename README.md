@@ -29,6 +29,9 @@ AI can generate digital credentials that *look* legitimate — but aren't.
 ## 🧪 Example Usage
 
 ```python
+## 🧪 Example Usage
+
+```python
 from aun_detection.operator import aun_filter
 
 # Two key-like inputs
@@ -41,11 +44,6 @@ if result is None:
     print("Mimicry detected. Credentials rejected.")
 else:
     print("Inputs passed. Proceed with validation.")
+```
 
-2) Commit: `Fix code fence so link renders`
-
-If it still won’t click (rare), use the full URL version:
-
-```markdown
 📄 [Whitepaper (PDF)](https://github.com/halifaxjerrykatz-dotcom/aun-detection/blob/main/docs/whitepaper.pdf)
-
