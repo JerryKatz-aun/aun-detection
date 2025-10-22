@@ -1,8 +1,10 @@
 [![PyPI version](https://img.shields.io/pypi/v/aun-detection.svg)](https://pypi.org/project/aun-detection/)
 [![Python versions](https://img.shields.io/pypi/pyversions/aun-detection.svg)](https://pypi.org/project/aun-detection/)
-📦 **Install with:**  
+
+📦 **Install with:**
 ```bash
 pip install aun-detection
+
 
 
 <p align="center">
