@@ -61,3 +61,32 @@ else:
 ```
 
 📄 [Whitepaper (PDF)](https://github.com/halifaxjerrykatz-dotcom/aun-detection/blob/main/docs/whitepaper.pdf)
+---
+
+## 🧠 Usage Example
+
+```python
+from aun_detection.operator import aun_filter
+
+# two sample key-like strings
+key1 = "c87af89e12dd45abde"
+key2 = "deab54dd21e98fa78c"  # a rotated + mirrored mimic
+
+result = aun_filter(key1, key2)
+
+if result is None:
+    print("Mimicry detected — credentials rejected.")
+else:
+    print(f"Inputs passed. Dissimilarity score: {result}")
+```
+
+**Output:**
+```
+Mimicry detected — credentials rejected.
+```
+---
+
+`aun_filter(a, b)` compares two strings symbolically.  
+It returns **None** when they collapse (too similar)**,**  
+and a **numeric dissimilarity score** otherwise.
+
