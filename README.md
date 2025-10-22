@@ -41,3 +41,6 @@ if result is None:
     print("Mimicry detected. Credentials rejected.")
 else:
     print("Inputs passed. Proceed with validation.")
+
+📄 [Whitepaper (PDF)](docs/whitepaper.pdf)
+
