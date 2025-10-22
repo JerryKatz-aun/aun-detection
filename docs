@@ -1,1 +1,8 @@
+# Delete the file
+git rm filename.txt
 
+# Commit the deletion
+git commit -m "Remove filename.txt"
+
+# Push to GitHub
+git push origin main
