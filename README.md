@@ -1,3 +1,7 @@
+[![PyPI version](https://img.shields.io/pypi/v/aun-detection.svg)](https://pypi.org/project/aun-detection/)
+[![Python versions](https://img.shields.io/pypi/pyversions/aun-detection.svg)](https://pypi.org/project/aun-detection/)
+
+
 <p align="center">
   <img src="https://github.com/halifaxjerrykatz-dotcom/aun-detection/raw/main/docs/logo.png" alt="∿ aun-detection" width="80"/>
 </p>
