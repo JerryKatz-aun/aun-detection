@@ -42,3 +42,10 @@ if result is None:
 else:
     print("Inputs passed. Proceed with validation.")
 
+2) Commit: `Fix code fence so link renders`
+
+If it still won’t click (rare), use the full URL version:
+
+```markdown
+📄 [Whitepaper (PDF)](https://github.com/halifaxjerrykatz-dotcom/aun-detection/blob/main/docs/whitepaper.pdf)
+
