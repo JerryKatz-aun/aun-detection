@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="docs/logo.png" alt="∿ aun-detection" width="80"/>
+  <img src="https://github.com/halifaxjerrykatz-dotcom/aun-detection/raw/main/docs/logo.png" alt="∿ aun-detection" width="80"/>
 </p>
+
 
 # ∿ aun-detection
 
