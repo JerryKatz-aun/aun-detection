@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "aun-detection"
 # ⬇️ Update this to your current version before building/publishing
-version = "0.0.0"
+version = "0.1.0"
 description = "At the edge of code and consciousness — ∿ applies nondual collapse logic to expose imitation in wallets, APIs, and digital trust systems."
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.8"
