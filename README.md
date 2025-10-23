@@ -1,3 +1,5 @@
+[![PyPI version](https://img.shields.io/pypi/v/aun-detection.svg?color=blue)](https://pypi.org/project/aun-detection/)
+[![Python versions](https://img.shields.io/pypi/pyversions/aun-detection.svg?color=brightgreen)](https://pypi.org/project/aun-detection/)
 [![PyPI version](https://img.shields.io/pypi/v/aun-detection.svg)](https://pypi.org/project/aun-detection/)
 [![PyPI version](https://img.shields.io/pypi/v/aun-detection.svg)](https://pypi.org/project/aun-detection/)
 [![Python versions](https://img.shields.io/pypi/pyversions/aun-detection.svg)](https://pypi.org/project/aun-detection/)
