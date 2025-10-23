@@ -1,6 +1,6 @@
 [![PyPI version](https://img.shields.io/pypi/v/aun-detection.svg?color=blue)](https://pypi.org/project/aun-detection/)
 [![Python versions](https://img.shields.io/pypi/pyversions/aun-detection.svg?color=brightgreen)](https://pypi.org/project/aun-detection/)
-[![Downloads](https://static.pepy.tech/badge/aun-detection/month)](https://pepy.tech/project/aun-detection)
+[![Downloads](https://img.shields.io/badge/dynamic/json?url=https://api.pepy.tech/api/projects/aun-detection&query=downloads&label=downloads&color=blue)](https://pepy.tech/project/aun-detection)
 [📄 Whitepaper](https://github.com/halifaxjerrykatz-dotcom/aun-detection/raw/main/docs/whitepaper.pdf)
 📦 **Install with:**
 ```bash
