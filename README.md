@@ -1,8 +1,6 @@
 [![PyPI version](https://img.shields.io/pypi/v/aun-detection.svg?color=blue)](https://pypi.org/project/aun-detection/)
 [![Python versions](https://img.shields.io/pypi/pyversions/aun-detection.svg?color=brightgreen)](https://pypi.org/project/aun-detection/)
-[![Python versions](https://img.shields.io/pypi/pyversions/aun-detection.svg)](https://pypi.org/project/aun-detection/)
 [📄 Whitepaper](https://github.com/halifaxjerrykatz-dotcom/aun-detection/raw/main/docs/whitepaper.pdf)
-
 📦 **Install with:**
 ```bash
 pip install aun-detection
