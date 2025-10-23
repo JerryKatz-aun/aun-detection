@@ -56,12 +56,24 @@ suspect_wallet = "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wl1"  # note the final 
 
 result = aun_filter(real_wallet, suspect_wallet)
 
-if result is None:
+if result is None:if result is None:
     print("🚨 Mimicry detected — credentials rejected.")
 else:
     print(f"✅ Inputs passed. Dissimilarity score: {result}")
-    print(f"✅ Inputs passed. Dissimilarity score: {result}")
 
-    print(f"✅ Inputs passed. Dissimilarity score: {result}")
+
+**Output:**
+
+---
+
+`aun_filter(a, b)` compares two strings symbolically:  
+- Returns **None** when the inputs *collapse* — too structurally alike to trust.  
+- Returns a **numeric dissimilarity score** (0–1 range) when they differ enough to pass.
+
+Use it for:
+- Wallet or address spoof detection  
+- API key integrity checking  
+- Symbolic anomaly detection  
+- Credential pre-screening
 
 
