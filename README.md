@@ -22,6 +22,20 @@ pip install aun-detection
 A symbolic collapse filter that detects structural mimicry in cryptographic inputs like wallet addresses, API keys, certificates, and more.
 
 ---
+---
+
+## ⚡ Quick Start
+
+```bash
+pip install aun-detection
+from aun_detection.operator import aun_filter
+
+score = aun_filter("known_good_value", "suspect_value")
+
+if score is None:
+    print("🚨 Mimicry detected — credentials rejected.")
+else:
+    print(f"✅ Valid — dissimilarity score: {score:.4f}")
 
 ## 🔍 What It Does
 
