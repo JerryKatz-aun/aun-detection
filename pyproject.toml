@@ -1,3 +1,40 @@
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+# ---- Project metadata (PEP 621) ----
+[project]
+name = "aun-detection"
+# ⬇️ Update this to your current version before building/publishing
+version = "0.0.0"
+description = "At the edge of code and consciousness — ∿ applies nondual collapse logic to expose imitation in wallets, APIs, and digital trust systems."
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.8"
+
+# Optional but helpful for search/discoverability
+keywords = [
+  "python",
+  "ai-security",
+  "api-security",
+  "wallet-detection",
+  "symbolic-logic",
+  "aun",
+  "nondual",
+  "mimicry-detection",
+  "cryptography",
+  "identity-verification"
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Developers",
+  "Topic :: Security",
+  "Topic :: Security :: Cryptography"
+]
+
+[project.urls]
+Homepage = "https://github.com/halifaxjerrykatz-dotcom/aun-detection"
+Issues = "https://github.com/halifaxjerrykatz-dotcom/aun-detection/issues"
+Documentation = "https://github.com/halifaxjerrykatz-dotcom/aun-detection#readme"
+PyPI = "https://pypi.org/project/aun-detection/"
