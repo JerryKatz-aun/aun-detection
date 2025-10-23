@@ -45,9 +45,23 @@ AI can generate digital credentials that *look* legitimate — but aren't.
 
 ## 🧠 Usage Example
 
+The `aun_filter()` function compares two string-like inputs — such as wallet addresses, API keys, or certificate fingerprints — and detects **mimicry**: patterns that are too structurally similar to trust.
+
 ```python
 from aun_detection.operator import aun_filter
 
-# Two key-like inputs
-key1 = "c87af89e12dd45abde"
-key2 = "deab54dd21e98fa78c"  # a rotated + mirror
+# Example: check for a spoofed wallet address
+real_wallet = "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh"
+suspect_wallet = "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wl1"  # note the final '1' vs 'h'
+
+result = aun_filter(real_wallet, suspect_wallet)
+
+if result is None:
+    print("🚨 Mimicry detected — credentials rejected.")
+else:
+    print(f"✅ Inputs passed. Dissimilarity score: {result}")
+    print(f"✅ Inputs passed. Dissimilarity score: {result}")
+
+    print(f"✅ Inputs passed. Dissimilarity score: {result}")
+
+
