@@ -123,3 +123,48 @@ MIT License — see [LICENSE](LICENSE)
 
 <p align="center"><em>`aun-detection` is not a model — it’s a moment of collapse.</em><br/>
 <em>In &lt; 3 ms, it tells you whether a credential stands as itself or folds back into its imitation.</em></p>
+
+
+---
+**Experimental Extension**
+
+---
+
+## ∿-Integrity Module  
+**Collapse awareness for AI and robotic systems**
+
+AI systems fail most often not through bad intent, but through **confused distinction** — mistaking record for reality, symbol for presence, alive for data.  
+The ∿-Integrity Module introduces a symbolic checkpoint inside any decision or learning pipeline that asks a single question:
+
+> **“Have these two things actually collapsed into one?”**
+
+When that collapse is detected, the system pauses or flags for review.  
+It’s not ethics by rule — it’s honesty by structure.
+
+---
+
+### Concept
+
+Aun (∿) marks the point where separation no longer holds.  
+In code, this becomes a **collapse detector**: a layer that compares entities and halts when distinction loses validity.  
+This could apply to:
+
+- AI recommending interaction with a deceased or non-existent person  
+- Robots acting on outdated or duplicated identity records  
+- Autonomous agents confusing self and environment  
+- Credential systems mistaking imitation for originality  
+
+---
+
+### Pseudocode Example
+
+```python
+from aun_integrity import AunIntegrity
+
+aun = AunIntegrity(threshold=0.95)
+
+aun.check_collapse("John Doe (alive)", "John Doe (deceased)", context="Friend Suggestion")
+# → ∿ Collapse detected in Friend Suggestion:
+# → Representation and reality have overlapped beyond distinction.
+# → Action paused for human review.
+
